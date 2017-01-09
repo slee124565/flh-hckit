@@ -196,7 +196,10 @@ FIBARO_HOMECENTER = {
             'id': 15,
             },
         'sleeping': {
-            'id': 16,
-            }
+            'id': 127,
+            },
+        'the light': {
+            'id': 12,
+            },
     }
 }
