@@ -12,8 +12,9 @@ from requests.auth import HTTPBasicAuth
 class ApiSceneView(View):
 
     def get(self, request, name=None, *args, **kwargs):
-        logger.debug('%s' % settings.FIBARO_HOMECENTER['scenes'])
+        #logger.debug('%s' % settings.FIBARO_HOMECENTER['scenes'])
         try:
+            name = name.lower()
             logger.info('start scene name: %s ...' % str(name))
             if name in settings.FIBARO_HOMECENTER['scenes'].keys():
                 scene_id = settings.FIBARO_HOMECENTER['scenes'][name]['id']
@@ -30,7 +31,9 @@ class ApiSceneView(View):
                 return HttpResponse('OK')
             else:
                 logger.warning('scene name [%s] not found' % name)
-                raise Http404
+                #raise Http404
+                return HttpResponse('Fail')
         except:
             logger.error('exception', exc_info=True)
-            raise Http404
+            #raise Http404
+            return HttpResponse('Exception')

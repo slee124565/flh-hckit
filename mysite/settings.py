@@ -186,7 +186,7 @@ FIBARO_HOMECENTER = {
     'account': 'admin',
     'password': 'flhadmin',
     'scenes': {
-        'office door': {
+        'door': {
             'id': 79,
             },
         'reading': {
