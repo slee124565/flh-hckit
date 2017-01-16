@@ -17,11 +17,12 @@ Including another URLconf
 from django.conf.urls import url
 #from django.contrib import admin
 
-from fibaro.api import ApiSceneView
+from fibaro.api import ApiSceneView, ApiGoodbyeView
 
 urlpatterns = [
     #url(r'^admin/', admin.site.urls),
     
     url(r'^api/s/v1/(?P<name>[A-Za-z\ ]+)', ApiSceneView.as_view(), name='api_scene'),
+    url(r'^api/s/v1_1', ApiGoodbyeView.as_view(), name='api_goodbye_scene'),
     
 ]
