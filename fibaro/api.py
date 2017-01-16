@@ -37,3 +37,20 @@ class ApiSceneView(View):
             logger.error('exception', exc_info=True)
             #raise Http404
             return HttpResponse('Exception')
+
+class ApiGoodbyeView(View):
+    
+    def get(self, request, *args, **kwargs):
+        scene_id = 150
+        hostname = settings.FIBARO_HOMECENTER['hostname']
+        account = settings.FIBARO_HOMECENTER['account']
+        password = settings.FIBARO_HOMECENTER['password']
+        api_path = 'http://%s/api/sceneControl?id=%s&action=start' % (
+                                                                hostname,
+                                                                scene_id)
+        r = requests.get(api_path, 
+                     auth=HTTPBasicAuth(account, password))
+        logger.info('request response %s, %s' % (r.status_code, r.text))
+        
+        return HttpResponse('OK')
+        
