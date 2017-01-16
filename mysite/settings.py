@@ -201,5 +201,8 @@ FIBARO_HOMECENTER = {
         'the light': {
             'id': 12,
             },
+        'the office': {
+            'id': 12,
+            },
     }
 }
