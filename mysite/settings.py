@@ -188,21 +188,40 @@ FIBARO_HOMECENTER = {
     'scenes': {
         'door': {
             'id': 79,
-            },
+        },
         'reading': {
             'id': 9,
-            },
+        },
         'standby': {
             'id': 15,
-            },
+        },
         'sleeping': {
             'id': 127,
-            },
+        },
+        'press conference': {
+            'id': 147,
+        },
+        'all clear': {
+            'id': 149,
+        },
+        'welcome': {
+            'id': 151,
+        },
+        'television': {
+            'id': 152,
+        },
+        'briefing': {
+            'id': 153,
+        },
+        'presentation': {
+            'id': 619,
+        },
         'the light': {
             'id': 12,
-            },
+        },
         'the office': {
             'id': 12,
-            },
+        },
+        
     }
 }
