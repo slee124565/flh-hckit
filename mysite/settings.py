@@ -213,8 +213,8 @@ FIBARO_HOMECENTER = {
         'briefing': {
             'id': 153,
         },
-        'presentation': {
-            'id': 619,
+        'opening': {
+            'id': 154,
         },
         'the light': {
             'id': 12,
