@@ -207,7 +207,7 @@ FIBARO_HOMECENTER = {
         'the monitor': {
             'id': 122,
         },
-        'the the curtains': {
+        'the curtains': {
             'id': 157,
         },
         'reading': {
