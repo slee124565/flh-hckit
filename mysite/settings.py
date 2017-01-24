@@ -186,8 +186,29 @@ FIBARO_HOMECENTER = {
     'account': 'admin',
     'password': 'flhadmin',
     'scenes': {
-        'door': {
+        'the door': {
             'id': 79,
+        },
+        'the television': {
+            'id': 152,
+        },
+        'the briefing mode': {
+            'id': 153,
+        },
+#         'all clear': {
+#             'id': 149,
+#         },
+        'the party mode': {
+            'id': 119,
+        },
+        'the dinning mode': {
+            'id': 131,
+        },
+        'the monitor': {
+            'id': 122,
+        },
+        'the the curtains': {
+            'id': 157,
         },
         'reading': {
             'id': 9,
@@ -198,30 +219,21 @@ FIBARO_HOMECENTER = {
         'sleeping': {
             'id': 127,
         },
-        'press conference': {
-            'id': 147,
-        },
-        'all clear': {
-            'id': 149,
-        },
-        'welcome': {
-            'id': 151,
-        },
-        'television': {
-            'id': 152,
-        },
-        'briefing': {
-            'id': 153,
-        },
-        'opening': {
-            'id': 154,
-        },
+#         'press conference': {
+#             'id': 147,
+#         },
+#         'welcome': {
+#             'id': 151,
+#         },
+#         'opening': {
+#             'id': 154,
+#         },
         'the light': {
             'id': 12,
         },
-        'the office': {
-            'id': 12,
-        },
+#         'the office': {
+#             'id': 12,
+#         },
         
     }
 }
