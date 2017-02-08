@@ -201,7 +201,7 @@ FIBARO_HOMECENTER = {
         'the party mode': {
             'id': 119,
         },
-        'the dinning mode': {
+        'the dining mode': {
             'id': 131,
         },
         'the monitor': {
