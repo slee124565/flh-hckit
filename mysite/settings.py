@@ -183,8 +183,8 @@ LOGGING = {
 
 FIBARO_HOMECENTER = {
     'hostname': '192.168.10.5',
-    'account': 'admin',
-    'password': 'flhadmin',
+    'account': 'service@flh.com.tw',
+    'password': 'FLHflhtest12345',
     'scenes': {
         'the door': {
             'id': 79,
